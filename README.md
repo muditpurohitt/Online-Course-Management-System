@@ -67,10 +67,3 @@ This project is an Online Course Management System, a full-stack web application
 
 Contributions are welcome! If you find a bug or want to add new features, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Special thanks to the [OpenAI GPT-3](https://www.openai.com/gpt-3/) model for providing assistance in generating project-related content.
