@@ -18,7 +18,7 @@ function Getcourses(){
             method: "GET",
             headers : {
                 "Authorization": "Bearer " + localStorage.getItem("token"),
-                "id": localStorage.getItem("id")
+                "id": localStorage.getItem("id")//admin id
             }
         }).then(callback1)
     }, []);
