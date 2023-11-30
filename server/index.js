@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.use("/admin", adminRouter);
 app.use("/user", userRouter);
-app.get("/", (req, res) => res.json({msg: "hello world after the class"}));
+app.get("/", (req, res) => res.json({msg: "Welcome!"}));
 
 // Connect to MongoDB
 mongoose.connect('mongodb+srv://muditp22:<password>@cluster0.t9kl0pk.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "Courses" });
