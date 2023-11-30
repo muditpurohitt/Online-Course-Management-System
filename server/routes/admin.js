@@ -17,7 +17,6 @@ router.get("/me", authenticateJwt, async (req, res) => {
     })
 });
 
-//without async
 router.post('/signup', async (req, res) => {
     const { username, password } = req.body;
     const admin = await Admin.findOne({ username });
